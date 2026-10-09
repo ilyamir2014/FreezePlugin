@@ -1,0 +1,12 @@
+name: FreezePlugin
+version: '1.0.0'
+main: com.example.freeze.FreezePlugin
+api-version: '1.21'
+author: megacraft.proj_creater-ilya
+description: Freeze plugin for Paper
+
+commands:
+  tagset:
+    description: Назначить игрока водящим
+    permission: freezeplugin.admin
+    usage: /tagset <player>
